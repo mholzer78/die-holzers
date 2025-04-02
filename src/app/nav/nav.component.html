@@ -1,0 +1,30 @@
+<nav>
+  <img src="mholzer78_logo.svg" alt="logo">
+  <div>
+    <ul>
+      <li [ngClass]="{ active: section == 'is' }">
+        <a href="#is">.<span>is</span>()</a>
+      </li>
+      <li [ngClass]="{ active: section == 'work' }">
+        <a href="#work">.<span>work</span>()</a>
+      </li>
+      <li [ngClass]="{ active: section == 'skills' }">
+        <a href="#skills">.<span>skills</span>()</a>
+      </li>
+      <li [ngClass]="{ active: section == 'qanda' }">
+        <a href="#qanda">.<span>q_and_a</span>()</a>
+      </li>
+      <li [ngClass]="{ active: section == 'contact' }">
+        <a href="#contact">.<span>contact</span>()</a>
+      </li>
+    </ul>
+  </div>
+  <div class="language">
+    <div [ngClass]="{ active: language == 'de' }" (click)="changeLang('de')">
+      de
+    </div>
+    <div [ngClass]="{ active: language == 'en' }" (click)="changeLang('en')">
+      en
+    </div>
+  </div>
+</nav>

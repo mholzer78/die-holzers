@@ -1,0 +1,6 @@
+.flex {
+  display: flex;
+  > *:last-child {
+    flex-grow: 1;
+  }
+}

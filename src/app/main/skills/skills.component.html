@@ -1,0 +1,30 @@
+<app-content id="skills" class="section">
+  <h1>
+    <span>.</span>{{ content.headline }}<span>('</span
+    >{{ content.overview.headline }}<span>')</span>
+  </h1>
+  <app-table>
+    @for (row of content.overview.tableRows; track $index) {
+    <tr>
+      <td class="half">{{ row.index }}</td>
+      <td><app-progress [progress]="row.value" /></td>
+    </tr>
+    }
+  </app-table>
+  <br />
+  <br />
+  <h1>
+    <span>.</span>{{ content.headline }}<span>('</span
+    >{{ content.courses.headline }}<span>')</span>
+  </h1>
+  <app-table>
+    @for (row of content.courses.tableRows; track $index) {
+    <tr>
+      <td>{{ row.index }}</td>
+      <td>{{ row.date }}</td>
+      <td>{{ row.link }}</td>
+    </tr>
+
+    }
+  </app-table>
+</app-content>

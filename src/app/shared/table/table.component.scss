@@ -1,0 +1,27 @@
+:host ::ng-deep table {
+  border-collapse: collapse;
+  width: 100%;
+  tr td {
+    padding: 0.5rem;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  tr:first-child td {
+    padding-top: 0;
+  }
+  tr:last-child td {
+    padding-bottom: 0;
+  }
+  tr > td:not(:last-child) {
+    border-right: 1px solid #fff;
+  }
+  tr:not(:last-child) {
+    td {
+      border-bottom: 1px solid #f18805;
+    }
+  }
+}

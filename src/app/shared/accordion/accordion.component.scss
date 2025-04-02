@@ -1,0 +1,25 @@
+.accordion {
+  border-bottom: 1px solid #f18805;
+  h3 {
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    .icon {
+        transform: rotate(0.25turn);
+    }
+  }
+  .answer {
+    display: none;
+    border-top: 1px dashed #fff;
+  }
+  &.show {
+    h3 .icon {
+        transform: rotate(-0.25turn);
+    }
+    .answer {
+        display: block;
+    }
+  }
+}

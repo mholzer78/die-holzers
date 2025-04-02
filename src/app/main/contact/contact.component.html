@@ -1,0 +1,8 @@
+<app-content id="contact" class="section">
+  <h1><span>.</span>{{ content.headline }}<span>()</span></h1>
+  @for (item of content.items; track $index) {
+  <a [href]="item.link" terget="_new"
+    ><img [src]="item.icon" [alt]="item.alt"
+  /></a>
+  }
+</app-content>

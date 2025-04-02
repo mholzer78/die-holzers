@@ -1,0 +1,420 @@
+{
+  "de": {
+    "is": {
+      "headline": "is",
+      "text": [
+        "Vater, Ehemann, Software-Entwickler",
+        "Vater zu sein ist ein wunderbarer Ausgleich zum programmieren und vice-versa.",
+        "Angefangen hat alles mit Amiga-Basic. Über 3 Jahrzehnte später ist mein Hobby auch mein Beruf. Mein Schwerpunkt liegt auf der Web-Entwicklung, und hier im speziellen im Frontend. Aber auch im Java/AEM-Bereich habe ich drei Jahre Erfahrung und privat ist mir auch Python (Raspberry Pi) und C++ (Arduino) nicht gänzlich fremd."
+      ],
+      "tableRows": [
+        {
+          "index": "Adresse",
+          "value": "Franz Berl Gasse 3c, A-2361 Laxenburg"
+        },
+        { "index": "Geburtsdatum", "value": "20. Juli 1978" },
+        { "index": "Staatsbürgerschaft", "value": "Österreich" },
+        { "index": "Familienstand", "value": "Verheiratet, 1 Kind" }
+      ]
+    },
+    "work": {
+      "headline": "work",
+      "jobs": [
+        {
+          "company": "SPAR Business Services GmbH",
+          "tableRows": [
+            {
+              "index": "05/2022 bis 07/2025",
+              "value": "Fullstack-Entwickler (AEM/Java Backend)"
+            }
+          ]
+        },
+        {
+          "company": "Herold Business Data",
+          "tableRows": [
+            {
+              "index": "07/2018 bis 03/2022",
+              "value": "Frontend-Entwickler (alleine)"
+            },
+            {
+              "index": "06/2017 bis 06/2018",
+              "value": "Content-Team (Einführung eines neuen CMS)"
+            },
+            {
+              "index": "06/2016 bis 05/2017",
+              "value": "Frontend-Entwickler (unter anderem herold.at)"
+            },
+            {
+              "index": "04/2011 bis 05/2016",
+              "value": "IT Application Support"
+            }
+          ]
+        },
+        {
+          "company": "UPC Telekabel",
+          "tableRows": [
+            {
+              "index": "02/2005 bis 03/2011",
+              "value": "3rd Level Helpdesk (Digital TV)"
+            },
+            {
+              "index": "02/2003 bis 02/2005",
+              "value": "IT-Support (mit Fokus auf Digital TV)"
+            },
+            {
+              "index": "12/2000 bis 02/2003",
+              "value": "1st Level Helpdesk (Internet / Digital TV)"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "headline": "skills",
+      "overview": {
+        "headline": "overview",
+        "tableRows": [
+          {
+            "index": "HTML / CSS / JavaScript / Bootstrap / jQuery / SCSS",
+            "value": "100%"
+          },
+          { "index": "XSLT / Freemarker", "value": "100%" },
+          { "index": "Adobe Experience Manager (AEM)", "value": "80%" },
+          { "index": "TypeScript", "value": "80%" },
+          { "index": "Angular", "value": "70%" },
+          { "index": "ReactJS", "value": "50%" },
+          { "index": "VueJS", "value": "50%" }
+        ]
+      },
+      "courses": {
+        "headline": "courses",
+        "tableRows": [
+          {
+            "index": "Angular",
+            "date": "derzeit",
+            "link": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+          },
+          {
+            "index": "Typescript",
+            "date": "Q4/2021",
+            "link": "https://www.udemy.com/course/understanding-typescript/"
+          },
+          {
+            "index": "ReactJS",
+            "date": "Q4/2021",
+            "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+          },
+          {
+            "index": "VueJS",
+            "date": "Q1/2022",
+            "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+          }
+        ]
+      }
+    },
+    "qanda": {
+      "headline": "q_and_a",
+      "list": [
+        {
+          "question": "Was treibt mich an?",
+          "answer": [
+            "Der Drang mit jedem Tag ein bisschen besser zu werden. Als Vater, als Mensch, als Programmierer.",
+            "Niemand ist perfekt, aber ich möchte jeden Tag in der Gewissheit beenden, etwas geleistet zu haben und im einen oder anderen Punkt besser geworden zu sein. Als Vater, als Mensch oder als Programmierer."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "Was macht mich aus?",
+          "answer": [
+            "Ich habe über viele Jahre darauf hin gearbeitet, der Mensch zu sein, der ich jetzt bin. Ein zurückhaltender Mensch, aber auch ein Mensch der mit sich selbst zufrieden ist.",
+            "Speziell nach der Geburt meines Sohnes war mein Leben sehr turbulent. Einen Tag vor der Geburt habe ich erfahren, daß ich zukünftig als einziger Frontend-Entwickler für meinen Arbeitgeber tätig sein werde. Dieser Moment war wohl der prägendste in meinem Leben. Mehr als die Geburt meines Sohnes es für sich schon gewesen wäre.",
+            "Work-Life-Balance ist heutzutage ein großes Thema. Für mich ist 'Vater sein' auch ein Job, aber da ich meinen Job als Vater als auch den als Programmierer von Herzen liebe sind diese für mich gebenseitig der Ausgleich den ich brauche um aus jedem Tag mein bestes zu geben."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "Warum Software-Entwicklung?",
+          "answer": [
+            "Schon in frühen Jahren habe ich mich gerne kreativ betätigt. Da ich aber auch einen Hang zum Perfektionismus habe, war Malen nie meines. Ich war nie mit dem Ergebnis zufrieden. Ähnlich mit der Musik.",
+            "Als ich das Programmieren für mich entdeckt habe, war mir recht schnell klar, daß genau dies das richtige für mich ist. Mit einer klar vorgegebenen Struktur, tat ich mir viel leichter mich 'kreativ' auszuleben.",
+            "Selbst Designs zu entwerfen und die passende Zusammenstellung von Farben zu finden ist nach-wie-vor nicht meine Stärke. Aber alles das man mit Ifs, Loops und Funktionen machen kann ist genau meines."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "Hobbies?",
+          "answer": [
+            "mein Sohn",
+            "Musik",
+            "programmieren (ja, tatsächlich noch immer)",
+            "heimwerken",
+            "Skifahren / Schwimmen / Radfahren"
+          ],
+          "answerType": "list"
+        },
+        {
+          "question": "Eigenschaften?",
+          "answer": [
+            "ausgeglichen",
+            "freundlich",
+            "hilfsbereit",
+            "introvertiert",
+            "voller Tatendrang"
+          ],
+          "answerType": "list"
+        },
+        {
+          "question": "Maxime und Zitate?",
+          "answer": [
+            "Laß keinen Tag an dir vorbei ziehen, denn das Hier und Heute bestimmt deine Zukunft.",
+            "Wer aus Fehlern lernt und nach Niederlagen wieder aufsteht, kann alles erreichen.",
+            "Liebe dein Leben oder ändere etwas daran.",
+            "Zweimal nachdenken, einmal reden - analog zu Zweimal messen, einmal schneiden.",
+            "Ich habe nicht versagt, ich habe 10.000 Wege gefunden die nicht funktionieren. - Thomas Edison"
+          ],
+          "answerType": "list"
+        }
+      ]
+    },
+    "contact": {
+      "headline": "contact",
+      "items": [
+        { "icon": "phone.svg", "link": "tel:+436766873625", "alt": "Phone" },
+        {
+          "icon": "mail.svg",
+          "link": "mailto:michael@die-holzers.at",
+          "alt": "E-Mail"
+        },
+        {
+          "icon": "linkedin.svg",
+          "link": "https://www.linkedin.com/in/mholzer78/",
+          "alt": "Linkedin"
+        },
+        {
+          "icon": "xing.svg",
+          "link": "https://www.xing.com/profile/Michael_Holzer27/",
+          "alt": "Xing"
+        },
+        {
+          "icon": "github.svg",
+          "link": "https://github.com/mholzer78",
+          "alt": "Github"
+        },
+        {
+          "icon": "stackoverflow.svg",
+          "link": "https://stackoverflow.com/users/4359914/mholzer78",
+          "alt": "Stackoverflow"
+        }
+      ]
+    }
+  },
+  "en": {
+    "is": {
+      "headline": "is",
+      "text": [
+        "father, husband, frontend-developer",
+        "Being a father gives a great balance to my work as a developer. And vice-versa",
+        "It all started with Amiga-Basic. More then 3 decades later my hobby is also my profession. My focus is on web-development and the frontend in particular. Nonetheless I've also got three years of experience in the Java/AEM environment and I've also used a little Python (Raspberry Pi) and C++ (Arduino) for private purpose in the past."
+      ],
+      "tableRows": [
+        {
+          "index": "Address",
+          "value": "Franz Berl Gasse 3c, A-2361 Laxenburg"
+        },
+        { "index": "Birthdate", "value": "20. Juli 1978" },
+        { "index": "Citizenship", "value": "Austria" },
+        { "index": "Family status", "value": "married, 1 child" }
+      ]
+    },
+    "work": {
+      "headline": "work",
+      "jobs": [
+        {
+          "company": "SPAR Business Services GmbH",
+          "tableRows": [
+            {
+              "index": "05/2022 to 07/2025",
+              "value": "Fullstack-Developer (AEM/Java Backend)"
+            }
+          ]
+        },
+        {
+          "company": "Herold Business Data",
+          "tableRows": [
+            {
+              "index": "07/2018 to 03/2022",
+              "value": "Frontend-Developer (solo)"
+            },
+            {
+              "index": "06/2017 to 06/2018",
+              "value": "Content-Team (introduction of a new CMS)"
+            },
+            {
+              "index": "06/2016 to 05/2017",
+              "value": "Frontend-Developer - (herold.at among others)"
+            },
+            {
+              "index": "04/2011 to 05/2016",
+              "value": "IT Application Support"
+            }
+          ]
+        },
+        {
+          "company": "UPC Telekabel",
+          "tableRows": [
+            {
+              "index": "02/2005 to 03/2011",
+              "value": "3rd Level Helpdesk (Digital TV)"
+            },
+            {
+              "index": "02/2003 to 02/2005",
+              "value": "Internal IT-Support (fokus on Digital TV)"
+            },
+            {
+              "index": "12/2000 to 02/2003",
+              "value": "1st Level Helpdesk (Internet / Digital TV)"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "headline": "skills",
+      "overview": {
+        "headline": "overview",
+        "tableRows": [
+          {
+            "index": "HTML / CSS / JavaScript / Bootstrap / jQuery / SCSS",
+            "value": "100%"
+          },
+          { "index": "XSLT / Freemarker", "value": "100%" },
+          { "index": "Adobe Experience Manager (AEM)", "value": "80%" },
+          { "index": "TypeScript", "value": "80%" },
+          { "index": "Angular", "value": "70%" },
+          { "index": "ReactJS", "value": "50%" },
+          { "index": "VueJS", "value": "50%" }
+        ]
+      },
+      "courses": {
+        "headline": "courses",
+        "tableRows": [
+          {
+            "index": "Angular",
+            "date": "currently",
+            "link": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+          },
+          {
+            "index": "Typescript",
+            "date": "Q4/2021",
+            "link": "https://www.udemy.com/course/understanding-typescript/"
+          },
+          {
+            "index": "ReactJS",
+            "date": "Q4/2021",
+            "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+          },
+          {
+            "index": "VueJS",
+            "date": "Q1/2022",
+            "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+          }
+        ]
+      }
+    },
+    "qanda": {
+      "headline": "q_and_a",
+      "list": [
+        {
+          "question": "What drives me?",
+          "answer": [
+            "The urge to get a little better every day. As a father, as a human as a developer.",
+            "Nobody is perfect, but I wanna end each and every day knowing I've done something worthy and surpassed mayself in one way or the other. As a father, as a human or as a developer."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "What defines me?",
+          "answer": [
+            "I've worked for many years to become the human being I am now. A cautious human-beeing, but also one that enjoys his inner peace",
+            "Especially after the birth of my son life was pretty upside-down. The day before I've gotten the news that I'll be the only Frontend-Developer in the company from now on. This point in time was the most formative in my life. More then the birth of my son would have been anyway.",
+            "Work-life balance is a big issue these days. For me, being a father is also a job, but since I love both my job as a father and the one as a developer with all my heart, they provide the mutual balance I need to give my best every day."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "Why Software-Development?",
+          "answer": [
+            "In my early years I liked to be creative. Having a tendency torwards perfectionism painting was nothing for me. I was never satisfied with the results. Same for music",
+            "Once I've discovered software-development, it was clear that this is the right thing for me. A clear structure helped me a lot to get creative within the given boundaries.",
+            "Coming up with my own designs and coming up with matching colors is still not my core-competence. However everything that can be done with Ifs, Loops and Functions is exactly what I enjoy doing."
+          ],
+          "answerType": "text"
+        },
+        {
+          "question": "hobbies?",
+          "answer": [
+            "my son",
+            "music",
+            "software-development (yes, still)",
+            "DIY around the house",
+            "skiiing / swimming / cycling"
+          ],
+          "answerType": "list"
+        },
+        {
+          "question": "characteristics?",
+          "answer": [
+            "balanced",
+            "friendly",
+            "helpful",
+            "introverted",
+            "driven"
+          ],
+          "answerType": "list"
+        },
+        {
+          "question": "maxims and quotes?",
+          "answer": [
+            "Never let a day single pass by, because righthere and rightnow is the foundation of your future.",
+            "He who can learn from mistakes and rise after defeat, can accive everything.",
+            "Love your life or change something about it.",
+            "Think twice, talk once - similar to measure twice, cut once.",
+            "I did not fail, Ive found 10,000 ways that won't work. - Thomas Edison"
+          ],
+          "answerType": "list"
+        }
+      ]
+    },
+    "contact": {
+      "headline": "contact",
+      "items": [
+        { "icon": "phone.svg", "link": "tel:+436766873625", "alt": "Phone" },
+        {
+          "icon": "mail.svg",
+          "link": "mailto:michael@die-holzers.at",
+          "alt": "E-Mail"
+        },
+        {
+          "icon": "linkedin.svg",
+          "link": "https://www.linkedin.com/in/mholzer78/",
+          "alt": "Linkedin"
+        },
+        {
+          "icon": "xing.svg",
+          "link": "https://www.xing.com/profile/Michael_Holzer27/",
+          "alt": "Xing"
+        },
+        {
+          "icon": "github.svg",
+          "link": "https://github.com/mholzer78",
+          "alt": "Github"
+        },
+        {
+          "icon": "stackoverflow.svg",
+          "link": "https://stackoverflow.com/users/4359914/mholzer78",
+          "alt": "Stackoverflow"
+        }
+      ]
+    }
+  }
+}

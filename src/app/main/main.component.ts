@@ -1,0 +1,32 @@
+import { Component } from '@angular/core';
+
+import { IsComponent } from './is/is.component';
+import { WorkComponent } from './work/work.component';
+import { SkillsComponent } from './skills/skills.component';
+import { QandaComponent } from './qanda/qanda.component';
+import { ContactComponent } from './contact/contact.component';
+import { ContentService } from './content.service';
+
+
+@Component({
+  selector: 'app-main',
+  standalone: true,
+  imports: [
+    IsComponent,
+    WorkComponent,
+    SkillsComponent,
+    QandaComponent,
+    ContactComponent,
+  ],
+  templateUrl: './main.component.html',
+  styleUrl: './main.component.scss',
+})
+export class MainComponent {
+  lang!: string;
+
+  constructor(private contentService: ContentService) {}
+
+  get fullContent() {
+    return this.contentService.getContent();
+  }
+}
