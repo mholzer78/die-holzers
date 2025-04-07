@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Lebenslauf von Michael Holzer</title>
+
+        <style>
+            body {
+                font-family: sans-serif;
+                font-size: 0.9em;
+            }
+            h1,
+            h2,
+            h3,
+            p,
+            small,
+            table {
+                margin: 0;
+                padding-top: 0.5rem;
+                padding-bottom: 0;
+            }
+            h2:not(.subtitle) {
+                margin-top: 0.5em;
+                border-bottom: 3px solid #567995;
+            }
+            h3 {
+                padding-top: 0.5em;
+            }
+            hr.spacer {
+                margin-top: 1em;
+                border: 0;
+                border-top: 2px solid #567995;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 0.5rem 0;
+            }
+            table:not(.noBorder) {
+                tr:not(:last-child) {
+                    td {
+                        border-bottom: 1px solid #567995;
+                    }
+                }
+            }
+            td {
+                vertical-align: top;
+            }
+            table.half td:last-child {
+                width: 10%;
+            }
+            ul {
+                margin: 0.5em 0;
+            }
+            small {
+                display: block;
+                padding-bottom: 1em;
+            }
+            .column {
+                float: left;
+                width: 48%;
+                padding: 1%;
+            }
+            .image {
+                height: 9em;
+                width: 9em;
+                padding: 0;
+                text-align: right;
+            }
+            #myImage {
+                max-width: 15vw;
+                padding-top: 0.5em;
+                float: right;
+                border-radius: 26%;
+                border-top-right-radius: 0;
+            }
+            .period {
+                font-weight: bold;
+            }
+            .highlight {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div class="column">
+                <h1>Michael Holzer</h1>
+                <h2 class="subtitle">
+                    Software-Entwickler<br />(Web/Frontend Fokus)
+                </h2>
+                <section>
+                    <h2>Persönliche Daten</h2>
+                    <table class="noBorder">
+                        <tr>
+                            <td>Name</td>
+                            <td>Michael Holzer</td>
+                        </tr>
+                        <tr>
+                            <td>Anschrift</td>
+                            <td>Franz Berlg. 3c<br />2361 Laxenburg</td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td>+43 676 6873625</td>
+                        </tr>
+                        <tr>
+                            <td>E-Mail</td>
+                            <td>michael@die-holzers.at</td>
+                        </tr>
+                        <tr>
+                            <td>geboren</td>
+                            <td>20. Juli 1978 in Wien</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h2>Kenntnisse und Fähigkeiten</h2>
+                    <p>1 = Sehr gut ... 5 = grundlegend</p>
+                    <section>
+                        <h3>Sprachen</h3>
+                        <table class="half">
+                            <tr>
+                                <td>Deutsch</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Englisch</td>
+                                <td>2</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+                <section>
+                    <h3>Technologien (aktuell beruflich genutzt)</h3>
+                    <table class="half">
+                        <tr>
+                            <td>
+                                HTML, CSS, JavaScript, SCSS, Bootstrap, jQuery
+                            </td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Webdesign</td>
+                            <td>1-2</td>
+                        </tr>
+                        <tr>
+                            <td>Accessability</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Experience Manager (AEM)</td>
+                            <td>2-3</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>2-3</td>
+                        </tr>
+                        <tr>
+                            <td>Git, NPM, Jira, Grunt</td>
+                            <td>&#10003;</td>
+                        </tr>
+                    </table>
+                    <h3>Technologien (früher beruflich genutzt)</h3>
+                    <table class="half">
+                        <tr>
+                            <td>XSLT / Freemarker</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>JSP</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>SVN, Webpack</td>
+                            <td>&#10003;</td>
+                        </tr>
+                    </table>
+                    <h3>Technologien (privat genutzt)</h3>
+                    <table class="half">
+                        <tr>
+                            <td>Angular, TypeScript</td>
+                            <td>2-3</td>
+                        </tr>
+                        <tr>
+                            <td>ReactJS, VueJS</td>
+                            <td>3-4</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            <div class="column">
+                <section>
+                    <img
+                        id="myImage"
+                        src="mholzer78.jpeg"
+                        alt="Michael Holzer"
+                    />
+                    <h2 class="subtitle">Über Mich</h2>
+                    <p>
+                        Seit nunmehr 7 Jahren bin ich als Frontend- und
+                        FullStack-Entwickler tätig. Dieser Beruf ist ohne
+                        Zweifel mein Traumberuf und gerade die Dynamik dieses
+                        Bereich bringt immer neue Herausforderungen welche den
+                        Beruf umso interessanter machen. Neben diversen privaten
+                        Projekten bin ich diesem Beruf nun in 2 verschiedenen
+                        Firmen nachgegangen und kann mir nicht vorstellen etwas
+                        anderes zu machen. Ich habe Erfahrung und den Drang mich
+                        stätig zu verbessern und auch neue Technologien zu
+                        lernen.
+                    </p>
+                </section>
+                <section>
+                    <h2>Berufliche Laufbahn</h2>
+                    <h3>SPAR Business Services GmbH</h3>
+                    <p>
+                        <span class="period">05/2022 - 07/2025</span> Full-Stack
+                        Developer
+                    </p>
+                    <hr class="spacer" />
+                    <h3>HEROLD Business Data</h3>
+                    <p>
+                        <span class="period">06/2018 - 03/2022</span> Frontend
+                        Developer
+                    </p>
+                    <p>
+                        <span class="period">06/2017 - 05/2018</span> Content
+                        and Webdesign
+                    </p>
+                    <p>
+                        <span class="period">08/2016 - 03/2017</span> Frontend
+                        Developer
+                    </p>
+                    <p>
+                        <span class="period">04/2011 - 07/2016</span> IT
+                        Application Support
+                    </p>
+                    <hr class="spacer" />
+                    <h3>UPC Austria</h3>
+                    <p>
+                        <span class="period">03/2005 - 03/2011</span> DigitalTV
+                        HD3
+                    </p>
+                    <p>
+                        <span class="period">03/2003 - 02/2005</span> IT
+                        Servicecenter
+                    </p>
+                    <p>
+                        <span class="period">12/2000 - 02/2003</span> Technical
+                        HD1
+                    </p>
+                </section>
+                <section>
+                    <h2>Ausbildung</h2>
+                    <p>
+                        <span class="period">Wiederkehrend</span> Mehrere Udemy
+                        Kurse - unter anderem: Angular, React, Vue und
+                        TypeScript
+                    </p>
+                    <p><span class="period">1998 - 1999</span> Zivildienst</p>
+                    <p>
+                        <span class="period">1994 - 1997</span> Schule für
+                        Informatik-Kaufläute
+                    </p>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

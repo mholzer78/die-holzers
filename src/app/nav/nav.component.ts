@@ -5,6 +5,7 @@ import { ContentService } from '../main/content.service';
 
 @Component({
   selector: 'app-nav',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss',

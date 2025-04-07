@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { QandaComponent } from './qanda/qanda.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContentService } from './content.service';
+import { DownloadCvComponent } from './download-cv/download-cv.component';
 
 
 @Component({
@@ -17,6 +18,7 @@ import { ContentService } from './content.service';
     SkillsComponent,
     QandaComponent,
     ContactComponent,
+    DownloadCvComponent
   ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',

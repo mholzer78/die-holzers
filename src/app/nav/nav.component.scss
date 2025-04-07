@@ -1,57 +1,60 @@
 nav {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 2rem);
-  padding: 1rem;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(68, 68, 68, 1) 100%
-  );
-  > div:not(:first-child) {
-    margin-top: auto;
-  }
-  h1 {
-    font-size: 1.15rem;
-    text-align: center;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    li {
-      padding: 0.25rem 0;
-      font-size: 1.25rem;
-      cursor: pointer;
-      a:link,
-      a:visited,
-      a:hover,
-      a:active {
-        color: white;
-        text-decoration: none;
-      }
-    }
-    li.active {
-      span {
-        color: #f18805;
-      }
-    }
-  }
-  .language {
+    position: fixed;
     display: flex;
-    justify-content: space-between;
-    div {
-      padding: 0.5rem 1rem;
-      text-align: center;
-      border: 1px solid white;
-      cursor: pointer;
-      &.active {
-        color: #f18805;
-        font-weight: bold;
-        border: 1px solid #f18805;
-      }
+    flex-direction: column;
+    height: calc(100vh - 2rem);
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(68, 68, 68, 1) 100%
+    );
+    > div:not(:first-child) {
+        margin-top: auto;
     }
-  }
+    h1 {
+        font-size: 1.15rem;
+        text-align: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            padding: 0.25rem 0;
+            font-size: 1.25rem;
+            cursor: pointer;
+            a:link,
+            a:visited,
+            a:hover,
+            a:active {
+                color: white;
+                text-decoration: none;
+            }
+        }
+        li.active {
+            span {
+                color: #f18805;
+            }
+        }
+    }
+    .language {
+        display: flex;
+        justify-content: space-between;
+        div {
+            padding: 0.5rem 1rem;
+            text-align: center;
+            border: 1px solid white;
+            cursor: pointer;
+            &:hover {
+                border: 1px solid #f18805;
+            }
+            &.active {
+                color: #f18805;
+                font-weight: bold;
+                border: 1px solid #f18805;
+            }
+        }
+    }
 }

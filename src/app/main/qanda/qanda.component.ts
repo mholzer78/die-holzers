@@ -6,6 +6,7 @@ import { Qanda } from '../content.type';
 
 @Component({
   selector: 'app-qanda',
+  standalone: true,
   imports: [ContentComponent, AccordionComponent],
   templateUrl: './qanda.component.html',
   styleUrl: './qanda.component.scss'

@@ -1,0 +1,18 @@
+a {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border: 1px solid white;
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+        color: white;
+        text-decoration: none;
+    }
+    &:hover {
+        border: 1px solid #f18805;
+    }
+}

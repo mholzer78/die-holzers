@@ -9,6 +9,7 @@ export interface LanguageContent {
   skills: Skills;
   qanda: Qanda;
   contact: Contact;
+  cv: Cv;
 }
 
 export interface Is {
@@ -42,6 +43,10 @@ export interface Contact {
     link: string;
     alt: string;
   }[];
+}
+export interface Cv {
+  title: string;
+  link: string;
 }
 
 interface TableRow {

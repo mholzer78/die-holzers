@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { fromEvent, throttleTime } from 'rxjs';
 
 import { MainComponent } from './main/main.component';
@@ -7,7 +6,8 @@ import { NavComponent } from './nav/nav.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavComponent, MainComponent],
+  standalone: true,
+  imports: [NavComponent, MainComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })

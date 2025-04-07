@@ -5,6 +5,7 @@ import { Contact } from '../content.type';
 
 @Component({
   selector: 'app-contact',
+  standalone: true,
   imports: [ContentComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'

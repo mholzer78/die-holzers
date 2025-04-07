@@ -7,6 +7,7 @@ import { Skills } from '../content.type';
 
 @Component({
   selector: 'app-skills',
+  standalone: true,
   imports: [ContentComponent, TableComponent, ProgressComponent],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
