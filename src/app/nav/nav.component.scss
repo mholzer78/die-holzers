@@ -1,3 +1,5 @@
+@import "../shared/variables";
+
 nav {
     position: fixed;
     display: flex;
@@ -56,5 +58,11 @@ nav {
                 border: 1px solid #f18805;
             }
         }
+    }
+}
+
+@media screen and (max-width: $breakpoint) {
+    nav {
+        display: none;
     }
 }

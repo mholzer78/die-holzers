@@ -19,12 +19,11 @@
   </h1>
   <app-table>
     @for (row of content.courses.tableRows; track $index) {
-    <tr>
+    <tr class="limitMobile">
       <td>{{ row.index }}</td>
       <td>{{ row.date }}</td>
       <td>{{ row.link }}</td>
     </tr>
-
     }
   </app-table>
 </app-content>

@@ -13,7 +13,6 @@ export class AccordionComponent {
   toggle(event: Event) {
     let accordion = ( <HTMLElement>event.target ).closest('.accordion');
     let grandParent = ( <HTMLElement>event.target ).closest('section');
-console.log(accordion);
     if (accordion?.classList.contains('show')) {
       accordion?.classList.remove('show');
     } else {

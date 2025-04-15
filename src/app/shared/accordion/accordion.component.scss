@@ -1,6 +1,6 @@
 .accordion {
   border-bottom: 1px solid #f18805;
-  h3 {
+  h2 {
     margin: 0;
     padding: 1em 0;
     display: flex;
@@ -15,7 +15,7 @@
     margin-top: 0.5rem;
   }
   &.show {
-    h3 .icon {
+    h2 .icon {
         transform: rotate(-0.25turn);
     }
     .answer {

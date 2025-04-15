@@ -1,41 +1,42 @@
-import { Component } from '@angular/core';
-import { fromEvent, throttleTime } from 'rxjs';
+import { Component, HostListener } from "@angular/core";
 
-import { MainComponent } from './main/main.component';
-import { NavComponent } from './nav/nav.component';
+import { MainComponent } from "./main/main.component";
+import { NavComponent } from "./nav/nav.component";
+
+if (globalThis.window === undefined) {
+    globalThis.window = {
+        addEventListener: () => {},
+    } as never;
+}
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [NavComponent, MainComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: "app-root",
+    standalone: true,
+    imports: [NavComponent, MainComponent],
+    templateUrl: "./app.component.html",
+    styleUrl: "./app.component.scss",
 })
 export class AppComponent {
-  title = 'die-holzers';
-  section = 'is';
+    title = "die-holzers";
+    section = "is";
 
-  constructor() {
-    fromEvent(window, 'scroll')
-      .pipe(throttleTime(100))
-      .subscribe((event) => this.onWindowScroll(event));
-  }
+    @HostListener("window:scroll", ["$event"])
+    onWindowScroll() {
+        let scrollPosition =
+            window.scrollY || document.documentElement.scrollTop;
+        scrollPosition = scrollPosition + 160;
 
-  onWindowScroll(event: Event) {
-    let scrollPosition = window.scrollY || document.documentElement.scrollTop;
-    scrollPosition = scrollPosition + 160;
+        const sections: any = document.querySelectorAll(".section");
 
-    const sections: any = document.querySelectorAll('.section');
-
-    sections.forEach((section: HTMLElement) => {
-      if (
-        section.offsetTop <= scrollPosition &&
-        section.offsetTop + section.offsetHeight > scrollPosition &&
-        this.section !== section.id
-      ) {
-        this.section = section.id;
-        history.pushState({}, '', '#' + section.id)
-      }
-    });
-  }
+        sections.forEach((section: HTMLElement) => {
+            if (
+                section.offsetTop <= scrollPosition &&
+                section.offsetTop + section.offsetHeight > scrollPosition &&
+                this.section !== section.id
+            ) {
+                this.section = section.id;
+                history.pushState({}, "", "#" + section.id);
+            }
+        });
+    }
 }

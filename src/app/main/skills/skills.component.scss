@@ -1,3 +1,15 @@
+@import '../../shared/variables';
+
 td.half {
     width: 50%;
+}
+@media screen and (max-width: $breakpoint) {
+    .limitMobile {
+        td:nth-child(2) {
+            border-right: 0 !important;
+        }
+        td:nth-child(3) {
+            display: none;
+        }
+    }
 }

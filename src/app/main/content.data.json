@@ -183,32 +183,32 @@
             "headline": "contact",
             "items": [
                 {
-                    "icon": "icons/phone.svg",
+                    "icon": "/images/phone.svg",
                     "link": "tel:+436766873625",
                     "alt": "Phone"
                 },
                 {
-                    "icon": "icons/mail.svg",
+                    "icon": "/images/mail.svg",
                     "link": "mailto:michael@die-holzers.at",
                     "alt": "E-Mail"
                 },
                 {
-                    "icon": "icons/linkedin.svg",
+                    "icon": "/images/linkedin.svg",
                     "link": "https://www.linkedin.com/in/mholzer78/",
                     "alt": "Linkedin"
                 },
                 {
-                    "icon": "icons/xing.svg",
+                    "icon": "/images/xing.svg",
                     "link": "https://www.xing.com/profile/Michael_Holzer27/",
                     "alt": "Xing"
                 },
                 {
-                    "icon": "icons/github.svg",
+                    "icon": "/images/github.svg",
                     "link": "https://github.com/mholzer78",
                     "alt": "Github"
                 },
                 {
-                    "icon": "icons/stackoverflow.svg",
+                    "icon": "/images/stackoverflow.svg",
                     "link": "https://stackoverflow.com/users/4359914/mholzer78",
                     "alt": "Stackoverflow"
                 }
@@ -403,32 +403,32 @@
             "headline": "contact",
             "items": [
                 {
-                    "icon": "icons/phone.svg",
+                    "icon": "/images/phone.svg",
                     "link": "tel:+436766873625",
                     "alt": "Phone"
                 },
                 {
-                    "icon": "icons/mail.svg",
+                    "icon": "/images/mail.svg",
                     "link": "mailto:michael@die-holzers.at",
                     "alt": "E-Mail"
                 },
                 {
-                    "icon": "icons/linkedin.svg",
+                    "icon": "/images/linkedin.svg",
                     "link": "https://www.linkedin.com/in/mholzer78/",
                     "alt": "Linkedin"
                 },
                 {
-                    "icon": "icons/xing.svg",
+                    "icon": "/images/xing.svg",
                     "link": "https://www.xing.com/profile/Michael_Holzer27/",
                     "alt": "Xing"
                 },
                 {
-                    "icon": "icons/github.svg",
+                    "icon": "/images/github.svg",
                     "link": "https://github.com/mholzer78",
                     "alt": "Github"
                 },
                 {
-                    "icon": "icons/stackoverflow.svg",
+                    "icon": "/images/stackoverflow.svg",
                     "link": "https://stackoverflow.com/users/4359914/mholzer78",
                     "alt": "Stackoverflow"
                 }
