@@ -1,18 +1,14 @@
-<div class="accordion">
-  <h2 class="question" (click)="toggle($event)">
-    {{ content.question }}<span class="icon">&#x279C;</span>
-  </h2>
-  <div class="answer">
-    @if (content.answerType == 'list') {
-      <ul>
-        @for (item of content.answer; track $index) {
-          <li>{{ item }}</li>
-        }
-      </ul>
-    } @else {
-      @for (item of content.answer; track $index) {
-        <p>{{ item }}</p>
-      }
+<h2 class="question" (click)="toggle($event)">
+  {{ content.question }}<span class="icon">&#x279C;</span>
+</h2>
+<div class="answer">
+  @if (content.answerType == 'list') {
+  <ul>
+    @for (item of content.answer; track $index) {
+    <li>{{ item }}</li>
     }
-  </div>
+  </ul>
+  } @else { @for (item of content.answer; track $index) {
+  <p>{{ item }}</p>
+  } }
 </div>

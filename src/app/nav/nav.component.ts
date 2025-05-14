@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ContentService } from '../main/content.service';
 
 @Component({
-  selector: 'app-nav',
+  selector: '[appNav]',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './nav.component.html',

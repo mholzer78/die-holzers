@@ -2,13 +2,13 @@
   <h1><span>.</span>{{ content.headline }}<span>()</span></h1>
   @for (job of content.jobs; track $index) {
   <h2>&#64; {{ job.company }}</h2>
-  <app-table>
+  <table appTable>
     @for (row of job.tableRows; track $index) {
     <tr>
       <td>{{ row.index }}</td>
       <td>{{ row.value }}</td>
     </tr>
     }
-  </app-table>
+  </table>
   }
 </app-content>

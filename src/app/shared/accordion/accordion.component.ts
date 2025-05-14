@@ -11,7 +11,7 @@ export class AccordionComponent {
   @Input ({required: true}) content!: { question: string; answer: string[]; answerType: string };
 
   toggle(event: Event) {
-    let accordion = ( <HTMLElement>event.target ).closest('.accordion');
+    let accordion = ( <HTMLElement>event.target ).closest('app-accordion');
     let grandParent = ( <HTMLElement>event.target ).closest('section');
     if (accordion?.classList.contains('show')) {
       accordion?.classList.remove('show');

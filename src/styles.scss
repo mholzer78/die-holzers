@@ -1,10 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-  font-family: 'SourceCodePro';
-  src:  url('/fonts/SourceCodePro-Regular.otf.woff2') format('woff2'),
-        url('/fonts/SourceCodePro-Regular.otf.woff') format('woff');
+  font-family: "SourceCodePro";
+  src: url("/fonts/SourceCodePro-Regular.otf.woff2") format("woff2"),
+    url("/fonts/SourceCodePro-Regular.otf.woff") format("woff");
 }
-
 
 ::-webkit-scrollbar {
   width: 15px;
@@ -13,10 +12,10 @@
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(68, 68, 68) 100%);
 }
 ::-webkit-scrollbar-thumb {
-  background: #fff; 
+  background: #fff;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #f18805; 
+  background: #f18805;
 }
 
 html {
@@ -42,4 +41,9 @@ h1 {
 
 h2 {
   font-size: 1.2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
