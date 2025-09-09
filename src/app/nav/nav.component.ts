@@ -12,7 +12,7 @@ import { ContentService } from '../main/content.service';
 })
 export class NavComponent {
   @Input ({required: true}) section!: string;
-  constructor(private contentService: ContentService) {}
+  constructor(private readonly contentService: ContentService) {}
 
   get language() {
     return this.contentService.getLang();

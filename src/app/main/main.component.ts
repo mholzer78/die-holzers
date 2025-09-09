@@ -26,7 +26,7 @@ import { DownloadCvComponent } from './download-cv/download-cv.component';
 export class MainComponent {
   lang!: string;
 
-  constructor(private contentService: ContentService) {}
+  constructor(private readonly contentService: ContentService) {}
 
   get fullContent() {
     return this.contentService.getContent();
