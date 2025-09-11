@@ -1,21 +1,25 @@
 <app-content id="is" class="section">
-    <h1>MichaelHolzer<span>.</span>{{ content.headline }}<span>()</span></h1>
+  <h1>MichaelHolzer<span>.</span>{{ content.headline }}<span>()</span></h1>
+  <div>
+    <img src="/images/mholzer78.jpeg" alt="Michael Holzer" loading="lazy" />
     <div>
-        <img src="/images/mholzer78.jpeg" alt="Michael Holzer" loading="lazy" />
-        <div>
-            @for (item of content.text; track $index) {
-            <p>{{ item }}</p>
-            }
-        </div>
+      @for (item of content.text; track $index) {
+      <p>{{ item }}</p>
+      }
     </div>
-    <table appTable>
-        <tbody>
-            @for (row of content.tableRows; track $index) {
-                <tr>
-                    <td>{{ row.index }}</td>
-                    <td>{{ row.value }}</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+  </div>
+  <table appTable>
+    <tr>
+      <th scope="col">key</th>
+      <th scope="col">value</th>
+    </tr>
+    <tbody>
+      @for (row of content.tableRows; track $index) {
+      <tr>
+        <td>{{ row.index }}</td>
+        <td>{{ row.value }}</td>
+      </tr>
+      }
+    </tbody>
+  </table>
 </app-content>
