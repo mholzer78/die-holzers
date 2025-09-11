@@ -20,7 +20,7 @@ export class AppComponent {
     title = "die-holzers";
     section = "is";
 
-    @HostListener("window:scroll", ["$event"])
+    @HostListener("window:scroll")
     onWindowScroll() {
         let scrollPosition =
             window.scrollY || document.documentElement.scrollTop;
