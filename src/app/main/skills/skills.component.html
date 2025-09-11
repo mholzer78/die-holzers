@@ -4,12 +4,20 @@
     >{{ content.overview.headline }}<span>')</span>
   </h1>
   <table appTable>
-    @for (row of content.overview.tableRows; track $index) {
-    <tr>
-      <td class="half">{{ row.index }}</td>
-      <td><app-progress [progress]="row.value" /></td>
-    </tr>
-    }
+    <thead class="sr-only">
+      <tr>
+        <th>skill</th>
+        <th>knowledge</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (row of content.overview.tableRows; track $index) {
+      <tr>
+        <td class="half">{{ row.index }}</td>
+        <td><app-progress [progress]="row.value" /></td>
+      </tr>
+      }
+    </tbody>
   </table>
   <br />
   <br />
@@ -18,12 +26,21 @@
     >{{ content.courses.headline }}<span>')</span>
   </h1>
   <table appTable>
-    @for (row of content.courses.tableRows; track $index) {
-    <tr class="limitMobile">
-      <td>{{ row.index }}</td>
-      <td>{{ row.date }}</td>
-      <td>{{ row.link }}</td>
-    </tr>
-    }
+    <thead class="sr-only">
+      <tr>
+        <th>course</th>
+        <th>period</th>
+        <th>link</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (row of content.courses.tableRows; track $index) {
+      <tr class="limitMobile">
+        <td>{{ row.index }}</td>
+        <td>{{ row.date }}</td>
+        <td>{{ row.link }}</td>
+      </tr>
+      }
+    </tbody>
   </table>
 </app-content>

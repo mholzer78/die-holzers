@@ -1,4 +1,4 @@
-@import '../../shared/variables';
+@use '../../shared/variables';
 
 section {
     display: flex;
@@ -16,7 +16,7 @@ section {
         border-left: 1px solid white;
         padding: 1rem;
         width: 50vw;
-        @media screen and (max-width: $breakpoint) {
+        @media screen and (max-width: variables.$breakpoint) {
             width: 100%;
         }
     }

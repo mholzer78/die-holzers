@@ -1,4 +1,4 @@
-@import "../shared/variables";
+@use "../shared/variables";
 
 nav {
     position: fixed;
@@ -61,7 +61,7 @@ nav {
     }
 }
 
-@media screen and (max-width: $breakpoint) {
+@media screen and (max-width: variables.$breakpoint) {
     nav {
         display: none;
     }

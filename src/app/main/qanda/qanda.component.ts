@@ -8,8 +8,7 @@ import { Qanda } from '../content.type';
   selector: 'app-qanda',
   standalone: true,
   imports: [ContentComponent, AccordionComponent],
-  templateUrl: './qanda.component.html',
-  styleUrl: './qanda.component.scss'
+  templateUrl: './qanda.component.html'
 })
 export class QandaComponent {
   @Input ({required: true}) content!: Qanda;

@@ -21,7 +21,6 @@ import { DownloadCvComponent } from './download-cv/download-cv.component';
     DownloadCvComponent
   ],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.scss',
 })
 export class MainComponent {
   lang!: string;
