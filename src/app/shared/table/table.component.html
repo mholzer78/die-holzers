@@ -1,9 +1,9 @@
-<ng-content select="thead">
-  <thead class="sr-only">
+<thead class="sr-only">
+  <ng-content select="tr">
     <tr>
-      <th>key</th>
-      <th>value</th>
+      <th scope="col">key</th>
+      <th scope="col">value</th>
     </tr>
-  </thead>
-</ng-content>
+  </ng-content>
+</thead>
 <ng-content select="tbody" />

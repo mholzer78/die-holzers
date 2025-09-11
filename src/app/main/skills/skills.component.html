@@ -4,12 +4,10 @@
     >{{ content.overview.headline }}<span>')</span>
   </h1>
   <table appTable>
-    <thead class="sr-only">
-      <tr>
-        <th>skill</th>
-        <th>knowledge</th>
-      </tr>
-    </thead>
+    <tr>
+      <th>skill</th>
+      <th>knowledge</th>
+    </tr>
     <tbody>
       @for (row of content.overview.tableRows; track $index) {
       <tr>
@@ -26,13 +24,11 @@
     >{{ content.courses.headline }}<span>')</span>
   </h1>
   <table appTable>
-    <thead class="sr-only">
-      <tr>
-        <th>course</th>
-        <th>period</th>
-        <th>link</th>
-      </tr>
-    </thead>
+    <tr>
+      <th>course</th>
+      <th>period</th>
+      <th>link</th>
+    </tr>
     <tbody>
       @for (row of content.courses.tableRows; track $index) {
       <tr class="limitMobile">

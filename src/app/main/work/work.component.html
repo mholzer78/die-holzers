@@ -3,12 +3,10 @@
   @for (job of content.jobs; track $index) {
   <h2>&#64; {{ job.company }}</h2>
   <table appTable>
-    <thead class="sr-only">
-      <tr>
-        <th>period</th>
-        <th>company</th>
-      </tr>
-    </thead>
+    <tr>
+        <th scope="col">period</th>
+        <th scope="col">function</th>
+    </tr>
     <tbody>
       @for (row of job.tableRows; track $index) {
       <tr>
