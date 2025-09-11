@@ -3,7 +3,7 @@ import { Component, HostListener } from "@angular/core";
 import { MainComponent } from "./main/main.component";
 import { NavComponent } from "./nav/nav.component";
 
-if (globalThis.window == undefined) {
+if (globalThis.window === undefined) {
     globalThis.window = {
         addEventListener: () => {},
     } as never;
