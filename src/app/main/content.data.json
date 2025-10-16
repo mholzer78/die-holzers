@@ -33,16 +33,8 @@
                     "company": "Herold Business Data",
                     "tableRows": [
                         {
-                            "index": "07/2018 bis 03/2022",
-                            "value": "Frontend-Entwickler (alleine)"
-                        },
-                        {
-                            "index": "06/2017 bis 06/2018",
-                            "value": "Content-Team (Einführung eines neuen CMS)"
-                        },
-                        {
-                            "index": "06/2016 bis 05/2017",
-                            "value": "Frontend-Entwickler (unter anderem herold.at)"
+                            "index": "06/2016 bis 03/2022",
+                            "value": "Frontend-Entwickler"
                         },
                         {
                             "index": "04/2011 bis 05/2016",
@@ -84,7 +76,7 @@
                         "value": "80%"
                     },
                     { "index": "TypeScript", "value": "80%" },
-                    { "index": "Angular", "value": "70%" },
+                    { "index": "Angular", "value": "80%" },
                     { "index": "ReactJS", "value": "50%" },
                     { "index": "VueJS", "value": "50%" }
                 ]
@@ -216,7 +208,7 @@
         },
         "cv": {
             "title": "Lebenslauf ansehen",
-            "link": "michael-holzer-cv-de.pdf"
+            "link": "cv/michael-holzer-cv-de.pdf"
         }
     },
     "en": {
@@ -253,16 +245,8 @@
                     "company": "Herold Business Data",
                     "tableRows": [
                         {
-                            "index": "07/2018 to 03/2022",
-                            "value": "Frontend-Developer (solo)"
-                        },
-                        {
-                            "index": "06/2017 to 06/2018",
-                            "value": "Content-Team (introduction of a new CMS)"
-                        },
-                        {
-                            "index": "06/2016 to 05/2017",
-                            "value": "Frontend-Developer - (herold.at among others)"
+                            "index": "06/2016 to 03/2022",
+                            "value": "Frontend-Developer"
                         },
                         {
                             "index": "04/2011 to 05/2016",
@@ -304,7 +288,7 @@
                         "value": "80%"
                     },
                     { "index": "TypeScript", "value": "80%" },
-                    { "index": "Angular", "value": "70%" },
+                    { "index": "Angular", "value": "80%" },
                     { "index": "ReactJS", "value": "50%" },
                     { "index": "VueJS", "value": "50%" }
                 ]
@@ -436,7 +420,7 @@
         },
         "cv": {
             "title": "view CV",
-            "link": "michael-holzer-cv-en.pdf"
+            "link": "cv/michael-holzer-cv-en.pdf"
         }
     }
 }
